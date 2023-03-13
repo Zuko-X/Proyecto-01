@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #6D3D14;
+}
+body {
+    background-color: #dfdddd;
+}
+#menu {
+    background-color: #2B2D42;
+    padding: 0.1rem 1rem;
+}
+#menu button {
+    margin: 0 auto;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4381C1;
+    color: #dfdddd;
+}
+article {
+    margin: 0 auto;
+}
+article img {
+    width: 600px;
+    border: none;
+}
+footer {
+    background-color: #2b2d42;
+}
+.footer {
+    color: #e5f2c9;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #4381C1;
+    
+}
+a:active{
+    color: #D62828;
+}
+a:hover {
+    color: #8A1919;
+}
