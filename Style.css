@@ -45,6 +45,17 @@ article {
     margin: 1rem 0;
     padding: 0.25rem 0;
 }
+article p {
+    text-indent: 5px;
+}
+
+article p, h3, li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
 article img {
     width: 600px;
     border: none;
