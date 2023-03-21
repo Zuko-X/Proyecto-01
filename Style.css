@@ -26,9 +26,10 @@ body {
 #menu {
     background-color: #2b2d40;
     padding: 0.1rem 1rem;
+    padding-bottom: 0.5rem;
     text-align: center;
 }
-#menu button {
+#menu .btn-nav {
     margin: 0 auto;
     padding: 10px 15px;
     border: none;
@@ -36,9 +37,16 @@ body {
     color: #dfdddd;
     border-radius: 5px;
 }
-/* #menu button :hover {
-    box-shadow: 0px 0px 21px -2px #333333;
-} */
+#menu .btn-nav a{
+    color: #dfdddd;
+    text-decoration: none;
+}
+#menu .btn-nav a:hover {
+    color: #dfdddd;
+}
+#menu .btn-nav :hover {
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.3);
+}
 article {
     background-color: #fff;
     border-radius: 0.5rem;
